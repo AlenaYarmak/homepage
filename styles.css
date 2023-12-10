@@ -236,3 +236,59 @@
   font-weight: 400;
   line-height: 14px; /* 155.556% */
 }
+
+/* EDUCATION */
+
+
+.education {
+  margin-top: 12px;
+}
+
+.education__title {
+  position: relative;
+  border-radius: 5px;
+  background: #545454;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  max-width: 154px;
+  text-align: center;
+  padding: 3px 0px;
+}
+
+.education__title::before {
+  content: "";
+  position: absolute;
+  left: 141px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 134px;
+  height: 1px;
+  background: #545454;
+  display: block;
+}
+
+.education__item {
+  padding-top: 15px;
+}
+
+.education__item-title {
+  color: #343434;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.education__item-data {
+  color: #73808D;
+  font-family: Roboto;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
