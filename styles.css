@@ -292,3 +292,44 @@
   font-weight: 400;
   line-height: 18px;
 }
+
+.about {
+  margin-top: 12px;
+}
+
+.about__title {
+  position: relative;
+  border-radius: 5px;
+  background: #545454;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  max-width: 154px;
+  text-align: center;
+  padding: 3px 0px;
+}
+
+.about__title::before {
+  content: "";
+  position: absolute;
+  left: 141px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 134px;
+  height: 1px;
+  background: #545454;
+  display: block;
+}
+
+.about__text {
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.80);
+  font-family: Roboto;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
