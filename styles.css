@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url(../img/background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px 13px;
+}
+
+.left-wrapper {
+  background-color: rgba(196, 196, 196, 0.3);
+  width: 50%; /* Adjusted width to account for padding */
+  border-radius: 10px;
+}
